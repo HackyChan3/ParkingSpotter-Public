@@ -1,0 +1,7 @@
+# Ignore local secret files
+secrets.py
+
+# Typical Python ignores
+__pycache__/
+*.pyc
+.env
