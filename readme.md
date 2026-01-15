@@ -70,7 +70,7 @@ echo "ROBOFLOW_API_KEY=your_api_key_here" > .env
 4. **Run the application, Open in browser**
 
 
-## 💻 Usage
+## Usage
 
 ### Web Application
 
@@ -97,7 +97,7 @@ testimagegen
 
 This generates 5 satellite images of APL campus parking lots for testing.
 
-## 🔧 Configuration
+## Configuration
 
 ### Adjusting Confidence Threshold
 
@@ -118,7 +118,7 @@ Change the version number in the code:
 model = project.version(3).model  # Change to your version number
 ```
 
-## 📈 Model Training Details
+## Model Training Details
 
 ### Dataset Preparation
 
@@ -152,7 +152,7 @@ results = model.train(data='data.yaml', epochs=100, imgsz=640)
 - CPU inference can be slow (1-3 seconds per image)
 - Model trained primarily on APL-style parking lots
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - [ ] Real-time webcam/drone feed support
 - [ ] Distance calculation to find closest available spot
@@ -165,7 +165,7 @@ results = model.train(data='data.yaml', epochs=100, imgsz=640)
 
 None
 
-## 👤 Contact
+## Contact
 
 **Abhijeet Ghodgaonkar**
 - GitHub: [@HackyChan3](https://github.com/HackyChan3)
@@ -174,3 +174,4 @@ None
 ---
 
 **Note**: This project was developed as a proof-of-concept for smart parking management systems. The model is optimized for APL campus parking lots but can be retrained on other parking lot datasets for broader applicability.
+
