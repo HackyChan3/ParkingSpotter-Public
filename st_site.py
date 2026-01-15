@@ -51,7 +51,7 @@ if uploaded_file is not None:
                 
                 # Show detection stats
                 st.success("✅ Detection completed!")
-                st.info(f"Predictions: {len(result.json()['predictions'])} objects detected")
+                st.info(f"{len(result.json()['predictions'])} empty parking lots detected!")
                 
             except Exception as e:
                 st.error(f"Error during detection: {str(e)}")

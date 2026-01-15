@@ -1,7 +1,60 @@
-# Ignore local secret files
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Streamlit
+.streamlit/
+*.streamlit
+
+# Output files
+detection_output.jpg
+output.jpg
+*.jpg
+*.png
+
+# Secrets (if using local secrets file)
 secrets.py
 
-# Typical Python ignores
-__pycache__/
-*.pyc
-.env
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Config files with sensitive data
+config.py
+configs.py
