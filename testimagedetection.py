@@ -1,6 +1,9 @@
+# cd "C:\Users\shilp\.AbhijeetProjectFiles\Parking Lot App (Git)" ; python -m venv venv
+# .\venv\Scripts\Activate.ps1
+
 from roboflow import Roboflow
 import os
-from secrets import RF_API_KEY, RF_WORKSPACE, RF_PROJECT, RF_VERSION, INPUT_DIR, OUTPUT_DIR
+from configs import RF_API_KEY, RF_WORKSPACE, RF_PROJECT, RF_VERSION, INPUT_DIR, OUTPUT_DIR
 
 rf = Roboflow(api_key=RF_API_KEY)
 project = rf.workspace(RF_WORKSPACE).project(RF_PROJECT)

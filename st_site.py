@@ -1,4 +1,5 @@
-#ALWAYS RUN APP THRU streamlit run [name].py
+# START VENV FIRST
+# ALWAYS RUN APP THRU streamlit run [name].py
 
 import streamlit as st
 from roboflow import Roboflow
@@ -27,7 +28,7 @@ uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png
 if uploaded_file is not None:
     # Display uploaded image
     image = Image.open(uploaded_file)
-    st.image(image, caption="Uploaded Image", width=True)
+    st.image(image, caption="Uploaded Image", use_column_width=True)
     
     # Save uploaded file temporarily and run detection
     if st.button("Run Detection"):
@@ -47,7 +48,7 @@ if uploaded_file is not None:
                 
                 # Display the result
                 result_image = Image.open(output_path)
-                st.image(result_image, caption="Detection Result", width=True)
+                st.image(result_image, caption="Detection Result", use_column_width=True)
                 
                 # Show detection stats
                 st.success("✅ Detection completed!")

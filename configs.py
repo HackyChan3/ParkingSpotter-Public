@@ -1,4 +1,4 @@
-# Local secrets file - do NOT commit this to source control.
+# Local file - do NOT commit this to source control.
 # This file contains your real API key and project details.
 
 RF_API_KEY = "jTekq3vmEyXVquhsQDkC"
