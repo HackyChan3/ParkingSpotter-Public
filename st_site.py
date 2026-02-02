@@ -1,5 +1,8 @@
 # START VENV FIRST
-# ALWAYS RUN APP THRU streamlit run [name].py
+# cd; python -m venv .venv
+# .\venv\Scripts\Activate.ps1
+
+# Note to self: ALWAYS RUN APP THRU streamlit run [name].py
 
 import streamlit as st
 from roboflow import Roboflow
