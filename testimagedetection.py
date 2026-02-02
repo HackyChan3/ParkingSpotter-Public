@@ -1,4 +1,6 @@
-# cd "C:\Users\shilp\.AbhijeetProjectFiles\Parking Lot App (Git)" ; python -m venv venv
+# Not necessary if you are using the app
+#
+# cd; python -m venv venv
 # .\venv\Scripts\Activate.ps1
 
 from roboflow import Roboflow
