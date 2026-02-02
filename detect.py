@@ -1,4 +1,8 @@
-#Main code to detect objects using Roboflow model
+# Main code to detect objects using Roboflow model.
+#
+# Note to viewer: this is unnecessary 
+# if you are using the Streamlit app (st_site.py).
+
 from roboflow import Roboflow
 from configs import RF_API_KEY, RF_WORKSPACE, RF_PROJECT, RF_VERSION
 
